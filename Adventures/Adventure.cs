@@ -1,6 +1,8 @@
-﻿using ConsoleTestRpg.Adventures.Models;
+
+using ConsoleTestRpg.Adventures.Models;
 
 namespace ConsoleTestRpg.Adventures
+
 {
     public class Adventure
     {
@@ -9,6 +11,7 @@ namespace ConsoleTestRpg.Adventures
         public string? Description { get; set; }
         public int ExpReward { get; set; }
         public int GoldReward { get; set; }
+
         public int MaximumLevel { get; set; }
         public int MinimumLevel { get; set; }
         public List<Rooms> Rooms{ get; set; }

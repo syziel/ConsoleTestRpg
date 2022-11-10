@@ -88,6 +88,7 @@ namespace ConsoleTestRpg.Game
                 Console.WriteLine($"Something went wrong {ex.Message}");
                 return true;
 
+
             }
         }
     }

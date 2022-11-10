@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using ConsoleTestRpg.Adventures.interfaces;
 using Newtonsoft.Json;
 
@@ -23,5 +24,17 @@ namespace ConsoleTestRpg.Adventures
 
             return initialAdventure;
         }
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleTestRpg.Adventures
+{
+    internal class Adventureservice
+    {
+>>>>>>> b2420501713986ef7accf08f4a0e29df8d1fa342
     }
 }

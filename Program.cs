@@ -1,6 +1,7 @@
 ﻿using ConsoleTestRpg.Adventures;
 using ConsoleTestRpg.Enties;
 using ConsoleTestRpg.Game;
+using ConsoleTestRpg.Gamw;
 using Newtonsoft.Json;
 using System;
 using System.IO;
@@ -11,15 +12,15 @@ namespace RPGConsoleTutorialSeries
 	class Program
 	{
 		private static AdventureService adventureService = new AdventureService();
-        private static CharacterService characterService = new CharacterService();
-        private static GameService gameService = new GameService(adventureService, characterService);
+		private static CharacterService characterService = new CharacterService();
+		private static GameService gameService = new GameService(adventureService, characterService);
 
 		static void Main(string[] args)
 		{
 			MakeTitle();
 			MakeMainMenu();
 		}
-		 private static void MakeTitle()
+		private static void MakeTitle()
 		{
 			Console.BackgroundColor = ConsoleColor.Red;
 			Console.ForegroundColor = ConsoleColor.Black;
@@ -48,7 +49,7 @@ namespace RPGConsoleTutorialSeries
 						break;
 					case "C":
 						CreateCharacter();
-						inputVaild = true; 
+						inputVaild = true;
 						break;
 					case "L":
 						LoadGame();
@@ -75,7 +76,7 @@ namespace RPGConsoleTutorialSeries
 			//throw new NotImplementedException();
 		}
 
-		private static void CreateCharacter() 
+		private static void CreateCharacter()
 		{
 			Console.WriteLine("You are creating a character");
 		}
