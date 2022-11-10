@@ -4,6 +4,7 @@ using ConsoleTestRpg.Enties;
 using ConsoleTestRpg.Entites.Interfaces;
 using ConsoleTestRpg.Entities.Models;
 using ConsoleTestRpg.Game.Interfaces;
+using Newtonsoft.Json;
 
 namespace ConsoleTestRpg.Game
 {
@@ -86,6 +87,7 @@ namespace ConsoleTestRpg.Game
             {
                 Console.WriteLine($"Something went wrong {ex.Message}");
                 return true;
+
             }
         }
     }
